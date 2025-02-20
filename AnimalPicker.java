@@ -18,8 +18,5 @@ public class AnimalPicker {
 		} else if (animal.equals("DOG")) {
 			System.out.println("Dog ASCII art here:");
 		}
-		
-		// eqofqefoj
-		
 	}
 }
