@@ -17,6 +17,9 @@ public class AnimalPicker {
 			System.out.println("Cat ASCII art here:");
 		} else if (animal.equals("DOG")) {
 			System.out.println("Dog ASCII art here:");
+		} else {
+			System.out.println("That is an invalid option.");
+			animal = userInput.nextLine().toUpperCase();
 		}
 		
 		
