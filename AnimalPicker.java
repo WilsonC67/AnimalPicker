@@ -18,10 +18,12 @@ public class AnimalPicker {
 
 			switch(animal) {
 			case "CAT":
-				System.out.println("Cat ASCII art here:");
+				System.out.println("    |\\__/,|   (`\\\n  _.|o o  |_   ) )\n-(((---(((--------");
+				userSelected = true;
 				break;
 			case "DOG":
-				System.out.println("Dog ASCII art here:");
+				System.out.println("(\\,--------\'()\'--o\n (_    ___    /~\"\n  (_)_)  (_)_)");
+				userSelected = true;
 				break;
 			default: 
 				System.out.println("That is an invalid option. Please enter dog or cat.");
