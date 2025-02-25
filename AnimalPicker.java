@@ -7,7 +7,7 @@ public class AnimalPicker {
 		
 		Scanner userInput = new Scanner(System.in);
 		
-		System.out.println("Hello! Would you like to see a drawing of a dog, cat, or fish?");
+		System.out.println("Hello! Would you like to see a drawing of a dog, cat,fish or horse?");
 		
 		boolean userSelected = false;
 		// possibly can implement switch statement here
@@ -30,6 +30,14 @@ public class AnimalPicker {
 						+ "      ¸  {\n `·.¸ `·  ¸.·´\\`·¸)\n     `\\\\´´\\¸.·´");
 				userSelected = true;
 				break;
+			
+				case "HORSE":
+					System.out.println("            .\'\'\n  ._.-.___.\' (`\\\n //(        ( `\'\n\'/ )\\ ).__. ) \n\' <\' `\\ ._/\'\\\n   `   \\     \\");
+				
+				userSelected = true;
+				
+				break;
+
 			default: 
 				System.out.println("That is an invalid option. Please enter dog or cat.");
 			}
@@ -45,6 +53,7 @@ public class AnimalPicker {
 			animal = userInput.nextLine().toUpperCase();
 		}
 		*/
+		userInput.close();
 		
 	}
 }
